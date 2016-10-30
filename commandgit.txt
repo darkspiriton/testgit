@@ -1,2 +1,11 @@
-git add -p
-git reset -p
+git add -p //Aceptar cada cambio
+git reset //eliminar todo los add
+git reset -p //Eliminar cada cambio
+git merge --abort //Nada paso
+git commit //luego de un merging manual
+
+//resolver un conflicto una y otra vez
+git config --local rerere.enabled true
+
+//GIT REBASE
+git rebase --continue
