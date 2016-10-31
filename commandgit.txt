@@ -11,7 +11,8 @@ git config --local rerere.enabled true
 
 //GIT REBASE
 git rebase --continue
-git rebase -i number
+git rebase -i branch
+git checkout -b #newbranch
 
 //GIT DIFF
 git diff --staged
