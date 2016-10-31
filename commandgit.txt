@@ -26,3 +26,4 @@ git bisect visualize
 git bisect --help
 git bisect reset
 
+git reflog
