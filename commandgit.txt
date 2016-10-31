@@ -10,3 +10,16 @@ git config --local rerere.enabled true
 //GIT REBASE
 git rebase --continue
 git rebase -i number
+
+//GIT DIFF
+git diff --staged
+git diff HEAD
+git difftool HEAD
+
+//GIT BISECT
+git bisect start
+git bisect good commit
+git bisect bad commit or HEAD
+git bisect visualize
+git bisect --help
+git bisect reset
