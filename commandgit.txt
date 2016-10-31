@@ -4,9 +4,24 @@ git reset -p //Eliminar cada cambio
 git merge --abort //Nada paso
 git commit //luego de un merging manual
 
+git show #commit
+
 //resolver un conflicto una y otra vez
 git config --local rerere.enabled true
 
 //GIT REBASE
 git rebase --continue
 git rebase -i number
+
+//GIT DIFF
+git diff --staged
+git diff HEAD
+git difftool HEAD
+
+//GIT BISECT
+git bisect start
+git bisect good commit
+git bisect bad commit or HEAD
+git bisect visualize
+git bisect --help
+git bisect reset
